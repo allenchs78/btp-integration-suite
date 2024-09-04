@@ -61,7 +61,7 @@ The local integration process performs the following steps:
 2.  A *Send* step transfers the encoded message to a JMS queue using the JMS receiver adapter.
 
 
-For the local integration process, the *From Calling Process* transaction handling setting is selected. This setting makes sure that the operations in the local subprocess are carried out within the same transaction of the overall process ensuring data inconsistency.
+For the local integration process, the *From Calling Process* transaction handling setting is selected. This setting makes sure that the operations in the local subprocess are carried out within the same transaction of the overall process ensuring data consistency.
 
 
 
